@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe package('mesos-master') do
+describe package('mesos') do
   it { should be_installed }
 end
 
