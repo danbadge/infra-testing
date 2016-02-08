@@ -12,12 +12,12 @@ There are three main technologies in use here:
 You will need the following installed locally:
 - Ansible
 - Vagrant
-- vagrant-hostmanager plugin
 - Virtualbox
 
-Once they're installed you will need to install the vagrant serverspec plugin:
+Once they're installed you will need to install these vagrant serverspec plugins:
 ```
 vagrant plugin install vagrant-serverspec
+vagrant plugin install vagrant-hostmanager
 ```
 
 And then run:
